@@ -1,0 +1,37 @@
+.c {
+    height: 800px;
+    width: 200px;
+}
+
+.c1 {
+    background: orangered;
+}
+
+.c2 {
+    background: greenyellow;
+}
+
+.c3 {
+    background: deepskyblue;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.c4 {
+    background: yellow;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.c5 {
+    height: 80px;
+    width: 150px;
+    background: black;
+    position: fixed;
+    /*right: 50px;*/
+    /*bottom: 50px;*/
+    left: 1000px;
+    top: 800px;
+}

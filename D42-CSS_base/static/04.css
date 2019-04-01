@@ -1,0 +1,30 @@
+/*未访问-蓝*/
+a:link {color: blue; text-decoration: none}
+/*已访问-红*/
+a:visited {color: red; text-decoration: none}
+/*鼠标悬停-绿*/
+a:hover {color: greenyellow; text-decoration: none}
+/*选定链接-紫*/
+a:active {color: deeppink}
+
+#img1:hover {
+    background:url(c5.png) no-repeat;
+}
+
+/*伪元素选择器*/
+/*first-letter : 元素首字母设置特殊样式*/
+.c1:first-letter {
+    font-size: 48px;
+}
+
+/*before : 元素前插入内容*/
+.c2:before {
+    content: "fuck";
+    color: greenyellow;
+}
+
+/*after: 元素后插入内容*/
+.c3:after {
+    content: "fuck";
+    color: blueviolet;
+}

@@ -1,0 +1,27 @@
+.cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.yingying {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -400px;
+    background: white;
+    z-index: 2;
+}
+
+.c1 {
+    background: yellowgreen;
+    width: 800px;
+    height: 400px;
+    z-index: 300;
+}

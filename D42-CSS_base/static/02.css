@@ -1,0 +1,14 @@
+
+div>p>span {
+    background: brown;
+}
+
+
+/*弟弟选择器*/
+#hr1~p{
+    background: deeppink;
+}
+
+#hr2~p{
+    background: blueviolet;
+}

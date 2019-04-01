@@ -1,0 +1,93 @@
+a:link {color: darkgrey; text-decoration: none}
+a:visited {color: darkgrey; text-decoration: none}
+a:hover {color: white; text-decoration: none}
+a:active {color: orangered; text-decoration: none}
+
+
+.c1 {
+    background: orangered;
+    height: 150px;
+    font-family: 龙顺体;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    line-height: 140px;
+}
+
+.c2 {
+    background: #343334;
+    /*height: 50px;*/
+}
+
+.c3, .c3_last, .c3_right, .c3_right_last{
+    /*box*/
+    margin: 10px 0;
+    background: none;
+    height: 20px;
+    width: fit-content;
+    padding: 0 20px;
+    border-right: 1px darkgrey solid;
+
+    /*text*/
+    text-align: center;
+    line-height: 20px;
+
+
+    /*other*/
+    float: left;
+}
+
+.c3_last {
+    border-right: none;
+}
+
+.c3_right {
+    float: right;
+}
+
+.c3_right_last {
+    border-right: none;
+    float: right;
+}
+
+.c4{
+    /*box*/
+    background: dimgray;
+    width: 100px;
+    height: 100%;
+
+
+    /*text*/
+    text-align: center;
+    line-height: 40px;
+    color: darkgrey;
+
+    /*other*/
+    float: right;
+}
+
+
+.c5 {
+    background: darkgrey;
+    height: 180px;
+    width: 300px;
+    border-bottom-left-radius: 5%;
+    position: absolute;
+    top: 190px;
+    right: 0;
+    visibility: hidden;
+}
+
+
+.c4:hover {
+    background: white;
+    color: orangered;
+
+}
+
+/*h2 clear*/
+.claearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

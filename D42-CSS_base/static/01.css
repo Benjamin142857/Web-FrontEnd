@@ -1,0 +1,22 @@
+#div4 {
+    color: deeppink;
+}
+
+#div5 {
+    color: orange;
+}
+
+#div3 {
+    color: blue;
+}
+
+p {
+    color: aqua;
+    font-size: 24px;
+    font-family: 龙顺体;
+}
+
+p.c1 {
+    background: brown;
+}
+

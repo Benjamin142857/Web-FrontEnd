@@ -1,0 +1,7 @@
+div[myname] {
+    background: blueviolet;
+}
+
+[id^='d'] {
+    background: blue;
+}

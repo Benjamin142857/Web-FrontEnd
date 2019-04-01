@@ -1,0 +1,19 @@
+.c1 {
+    width: 50px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.c2 {
+    height: 128px;
+    width: 128px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.c2>img {
+    height: 100%;
+    width: 100%;
+}

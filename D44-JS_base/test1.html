@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+</head>
+
+
+<body>
+
+  <input type="button" onclick="aa()" ondblclick="bb()" value="播放">
+  <input type="button" value="暂停">
+  <script type="text/javascript">
+     var timer = null;
+     function aa() {
+        clearTimeout(timer);
+        if (event.detail == 2)
+            return ;
+        timer = setTimeout(function() {
+          console.log('单击');
+        }, 300);
+    }
+    function bb() {
+        clearTimeout(timer);
+        console.log('双击');
+    }
+  </script>
+
+</body>
+
+</html>

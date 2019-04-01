@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+</head>
+
+
+<body>
+    <div>
+        <form action="#">
+            <input type="date">
+            <input type="email">
+            <input type="checkbox">
+            <br>
+            <hr>
+            <br>
+            <input type="radio" name="whoareyou">小沙雕
+            <input type="radio" name="whoareyou">大沙雕
+            <input type="radio" name="whoareyou">史上最大的沙雕
+            <br>
+            <hr>
+            <br>
+            <input type="radio" name="age">17
+            <input type="radio" name="age">18
+            <input type="radio" name="age">19
+            <br>
+            <hr>
+            <br>
+            <input type="radio" name="whoareyou" checked>1沙雕
+            <input type="radio" name="whoareyou">2沙雕
+            <input type="radio" name="whoareyou">3沙雕
+        </form>
+    </div>
+
+    <div>
+        <form action="http://127.0.0.1:8091/test" method="post">
+            <input type="radio" name="age" value="17">17
+            <input type="radio" name="age" value="18">18
+            <input type="radio" name="age" value="19">19
+            <hr>
+            <input type="checkbox" name="talent" value="computer">computer
+            <br>
+            <input type="checkbox" name="talent" value="science" checked>science
+            <br>
+            <input type="checkbox" name="talent" value="art">art
+            <hr>
+            <select name="city" id="s1" multiple>
+                <option value="1">BeiJing</option>
+                <option value="2">ShangHai</option>
+                <option value="3">GuangZhou</option>
+            </select>
+            <hr>
+            <textarea name="info" id="t1" cols="30" rows="10"></textarea>
+            <input type="submit" value="交">
+            <hr>
+            <label for="f1">选择文件</label>
+            <input type="file" id="f1">
+            <hr>
+            <input type="text" placeholder="输入点什么...">
+        </form>
+    </div>
+
+
+</body>
+
+</html>

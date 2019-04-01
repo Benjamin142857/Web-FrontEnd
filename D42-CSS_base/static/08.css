@@ -1,0 +1,38 @@
+.left {
+    background: deeppink;
+    height: 200px;
+    width: 20%;
+    margin-top: 300px;
+    float: left;
+}
+
+.right {
+    background: greenyellow;
+    height: 200px;
+    width: 80%;
+    margin-top: 300px;
+    float: right;
+}
+
+.c1 {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.c2, .c3{
+    background: greenyellow;
+    border: 1px solid deeppink;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.c3 {
+    background: cadetblue;
+}
+
+.c1:after {
+    content: "";
+    display: block;
+    clear: left;
+}
