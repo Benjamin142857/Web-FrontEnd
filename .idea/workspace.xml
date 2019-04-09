@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105a9158-aaa0-4f36-8920-9a50bb624024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D45-JS-Obj/RegExp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/今日面试题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/利用classList-toggle闪烁等设计.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,16 +55,7 @@
         <entry file="file://$PROJECT_DIR$/D46-JS-BOM&amp;DOM/今日面试题.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D45-JS-Obj/今日面试题.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -77,9 +67,9 @@
       <list>
         <option value="Jupyter Notebook" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day-41/homework.html" />
-        <option value="$PROJECT_DIR$/D42-CSS_base/test1.py" />
         <option value="$PROJECT_DIR$/D42-CSS_base/001.css" />
         <option value="$PROJECT_DIR$/D42-CSS_base/01.ipynb" />
         <option value="$PROJECT_DIR$/D42-CSS_base/01 test.html" />
@@ -140,6 +128,8 @@
         <option value="$PROJECT_DIR$/D45-JS-Obj/类与对象.js" />
         <option value="$PROJECT_DIR$/D45-JS-Obj/RegExp.js" />
         <option value="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/今日面试题.py" />
+        <option value="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/利用classList-toggle闪烁等设计.html" />
+        <option value="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/note.txt" />
       </list>
     </option>
   </component>
@@ -149,16 +139,17 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="984" />
-    <option name="width" value="943" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="991" />
+    <option name="width" value="938" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +166,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +175,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/D44-JS_base/01 操作DOM.html&#10;E:/#Programming/Web/Web-FrontEnd/.gitignore" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python/_Django/benjamin_stella" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,8 +263,8 @@
       <item itemvalue="Node.js.00-1.js" />
       <item itemvalue="Node.js.01.js" />
       <item itemvalue="Node.js.类与对象.js" />
-      <item itemvalue="Python.今日面试题" />
       <item itemvalue="Node.js.RegExp.js" />
+      <item itemvalue="Python.今日面试题" />
     </list>
     <recent_temporary>
       <list>
@@ -307,11 +297,12 @@
       <workItem from="1554101932635" duration="608000" />
       <workItem from="1554189739974" duration="4137000" />
       <workItem from="1554259645926" duration="884000" />
+      <workItem from="1554771228541" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72572000" />
+    <option name="totallyTimeSpent" value="75936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,10 +314,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="984" y="0" width="943" height="1087" extended-state="0" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35300794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17604856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,14 +367,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D41-html_base/homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D42-CSS_base/01.ipynb" />
     <entry file="file://$PROJECT_DIR$/D42-CSS_base/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -676,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D45-JS-Obj/今日面试题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D45-JS-Obj/RegExp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -690,10 +666,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/D45-JS-Obj/今日面试题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D46-JS-BOM&amp;DOM/利用classList-toggle闪烁等设计.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D46-JS-BOM&amp;DOM/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/D46-JS-BOM&amp;DOM/今日面试题.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <style>
+        .c1 {
+            border-radius: 50%;
+            background: palegreen;
+            height: 200px;
+            width: 200px;
+
+        }
+        .c2 {
+            background: palevioletred;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div id="aaa" class="c1 c2"></div>
+
+    <script>
+        var light = document.getElementById('aaa');
+        var glitter = function(){
+            light.classList.toggle('c2');
+        };
+        var timer = setInterval(glitter, 100);
+    </script>
+</body>
+
+</html>
