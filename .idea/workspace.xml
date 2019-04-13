@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105a9158-aaa0-4f36-8920-9a50bb624024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D47_Jquery_1/计时器练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D47_Jquery_1/面试题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/S14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/S14.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D47_Jquery_1/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D47_Jquery_1/practice_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,32 +36,35 @@
     <session id="933386725">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
+          <entry key="js" value="1" />
           <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="1" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="180" />
+          <entry key="html" value="389" />
           <entry key="py" value="337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="180" />
+          <entry key="HTML" value="389" />
           <entry key="Python" value="337" />
         </counts>
       </usages-collector>
@@ -74,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D47_Jquery_1/面试题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="270">
               <caret line="15" selection-start-line="15" selection-end-line="16" />
               <folding>
                 <marker date="1554894066647" expanded="true" signature="332:349" ph="..." />
@@ -83,11 +84,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D47_Jquery_1/计时器练习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D47_Jquery_1/jquery-3.3.1.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/D47_Jquery_1/practice_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -111,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/D42-CSS_base/01 test.html" />
         <option value="$PROJECT_DIR$/D42-CSS_base/01.css" />
         <option value="$PROJECT_DIR$/D42-CSS_base/02 组合选择器.html" />
         <option value="$PROJECT_DIR$/D42-CSS_base/02.css" />
@@ -162,6 +176,7 @@
         <option value="$PROJECT_DIR$/D46-JS-BOM&amp;DOM/note.txt" />
         <option value="$PROJECT_DIR$/D47_Jquery_1/面试题.py" />
         <option value="$PROJECT_DIR$/D47_Jquery_1/计时器练习.html" />
+        <option value="$PROJECT_DIR$/D47_Jquery_1/practice_1.html" />
       </list>
     </option>
   </component>
@@ -178,8 +193,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="971" />
-    <option name="y" value="291" />
+    <option name="x" value="970" />
+    <option name="y" value="290" />
     <option name="width" value="770" />
     <option name="height" value="765" />
   </component>
@@ -188,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +219,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,15 +236,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\#Programming\Web\Web-FrontEnd\D47_Jquery_1" />
+      <recent name="E:\#Programming\Web\S14\D42-CSS_base\Blog" />
+      <recent name="E:\#Programming\Web\S14\D42-CSS_base" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\#Programming\Web\S14\D44-JS_base" />
       <recent name="E:\#Programming\Web\S14\D42-CSS_base\static" />
       <recent name="E:\#Programming\Web\S14\D42-CSS_base" />
       <recent name="E:\#Programming\Web\S14" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\#Programming\Web\S14\D42-CSS_base\Blog" />
-      <recent name="E:\#Programming\Web\S14\D42-CSS_base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.面试题">
+  <component name="RunManager" selected="Jupyter Notebook.S14">
     <configuration name="S14" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="S14" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,11 +335,9 @@
     <list>
       <item itemvalue="Jupyter Notebook.S14" />
       <item itemvalue="Python.今日面试题" />
-      <item itemvalue="Python.面试题" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.面试题" />
         <item itemvalue="Python.今日面试题" />
       </list>
     </recent_temporary>
@@ -366,10 +380,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="777" y="233" width="616" height="612" extended-state="0" />
+    <frame x="776" y="232" width="616" height="612" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.9478261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3561151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,20 +436,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D42-CSS_base/01 选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D42-CSS_base/static/03.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D41-html_base/02 常用标签2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
@@ -737,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/D47_Jquery_1/面试题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="270">
           <caret line="15" selection-start-line="15" selection-end-line="16" />
           <folding>
             <marker date="1554894066647" expanded="true" signature="332:349" ph="..." />
@@ -747,8 +747,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/D47_Jquery_1/计时器练习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/practice_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>

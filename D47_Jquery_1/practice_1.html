@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+
+<body>
+    <div id="d1">
+        <div class="c1">[#d1>c1]</div>
+        <div class="c2">[#d1>c2]</div>
+    </div>
+
+    <div id="d2" class="c1 c2">div2</div>
+
+    <div id="d3" class="c1 c3">
+        <img src="" alt="">
+        <div class="c3">
+            <p class="c1">[#d3>.c3:has(p)]
+                <span></span>
+            </p>
+        </div>
+        <div class="c3">
+            [#d3>.c3]
+            <p></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
