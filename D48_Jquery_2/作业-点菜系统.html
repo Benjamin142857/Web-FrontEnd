@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <style>
+        #main-box {
+            width: 300px;
+        }
+        #main-box li {
+            list-style-type: none;
+            font-size: 24px;
+            font-family: '等线';
+            border: 1px black solid;
+            height: 36px;
+            line-height: 36px;
+            text-align: left;
+        }
+        #main-box label {
+            cursor: pointer;
+        }
+        #main-box input[type=checkbox] {
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+            margin: 8px;
+            cursor: pointer;
+        }
+        .fast-select-box {
+            width: 300px;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+        .def-btn {
+            border-radius: 5px;
+            margin: auto 8px;
+            height: 30px;
+            width: 80px;
+            cursor: pointer;
+            background: rgba(200, 120, 130, 0.7);
+            border: none;
+        }
+        .def-btn:hover {
+            background: rgba(200, 120, 130, 0.9);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="main-box">
+        <h1>今晚你想吃啥</h1>
+        <li>
+            <input name="dinner" type="checkbox" id="s1" value="1">
+            <label for="s1">尖椒炒肉丝</label>
+        </li>
+        <li>
+            <input name="dinner" type="checkbox" id="s2" value="2">
+            <label for="s2">茄子披萨</label>
+        </li>
+        <li>
+            <input name="dinner" type="checkbox" id="s3" value="3">
+            <label for="s3">蒜泥白肉</label>
+        </li>
+        <li>
+            <input name="dinner" type="checkbox" id="s4" value="4">
+            <label for="s4">上汤娃娃菜</label>
+        </li>
+        <li>
+            <input name="dinner" type="checkbox" id="s5" value="5">
+            <label for="s5" contenteditable="true">酒酿珍珠肉丸</label>
+        </li>
+    </div>
+
+    <div class="fast-select-box">
+        <button id="fs1" class="def-btn">全选</button>
+        <button id="fs2" class="def-btn">反选</button>
+        <button id="fs3" class="def-btn">取消</button>
+    </div>
+
+    <div class="fast-select-box">
+        <button id="fs4" class="def-btn">编辑</button>
+        <button id="fs5" class="def-btn">反选</button>
+        <button id="fs6" class="def-btn">取消</button>
+    </div>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        // 全选
+        $('#fs1').click(function () {
+            $("input[name='dinner']").prop('checked', true);
+        });
+
+        // 反选
+        $('#fs2').click(function () {
+            var $dinnerEle = $("input[name='dinner']");
+            for(i in $dinnerEle) {
+                if($($dinnerEle[i]).prop('checked')){
+                    $($dinnerEle[i]).prop('checked', false);
+                }
+                else {
+                    $($dinnerEle[i]).prop('checked', true);
+                }
+            }
+
+        });
+
+        // 取消
+        $('#fs3').click(function () {
+            $("input[name='dinner']").prop('checked', false);
+        });
+    </script>
+</body>
+
+</html>

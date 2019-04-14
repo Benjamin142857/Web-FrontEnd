@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+        .left-menu-box {
+            width: 200px;
+            background: palegreen;
+            border: 1px solid black;
+
+        }
+        .left-menu-d1 {
+            height: 100px;
+            width: 100%;
+            background: pink;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .left-menu-d2 {
+            height: 50px;
+            width: 100%;
+            background: paleturquoise;
+            border: 1px solid black;
+        }
+        .disappear {
+            display: none;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="left-menu-box">
+        <div>
+            <div id="a" class="left-menu-d1">a</div>
+            <div boss='a' class="left-menu-d2 disappear">a1</div>
+            <div boss='a' class="left-menu-d2 disappear">a2</div>
+            <div boss='a' class="left-menu-d2 disappear">a3</div>
+        </div>
+
+        <div>
+            <div id="b" class="left-menu-d1">b</div>
+            <div boss='b' class="left-menu-d2 disappear">b1</div>
+            <div boss='b' class="left-menu-d2 disappear">b2</div>
+            <div boss='b' class="left-menu-d2 disappear">b3</div>
+        </div>
+
+        <div>
+            <div id="c" class="left-menu-d1">c</div>
+            <div boss='c' class="left-menu-d2 disappear">c1</div>
+            <div boss='c' class="left-menu-d2 disappear">c2</div>
+            <div boss='c' class="left-menu-d2 disappear">c3</div>
+        </div>
+
+    </div>
+
+    <script>
+        $('.left-menu-d1').on('click', function () {
+            $(this).siblings().toggleClass('disappear').parent().siblings().find('.left-menu-d2').addClass('disappear')
+        })
+    </script>
+</body>
+
+</html>
