@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+        #box {
+           height: 400px;
+            width: 600px;
+            background: pink;
+            position: relative;
+        }
+        #d2 {
+            height: 50px;
+            width: 600px;
+            background: paleturquoise;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+        }
+        #d3 {
+            height: 350px;
+            width: 600px;
+            background: palegreen;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div id="box">
+        <div id="d2">Head-拖拽这里</div>
+        <div id="d3">Body-内容放这里</div>
+    </div>
+
+
+
+    <script>
+
+        d2_Ele = document.getElementById('d2');
+        var isdrag = false;
+        var errX, errY;
+
+        d2_Ele.onmousedown = function (e) {
+            var e = e || window.event;
+            var d3_Ele = document.getElementById('box');
+            errX = d3_Ele.offsetLeft - e.clientX;
+            errY = d3_Ele.offsetTop - e.clientY;
+            isdrag = true;
+        };
+
+
+
+        document.onmousemove = function(ee) {
+            if(isdrag) {
+                var ee = ee || window.event;
+                var d3_Ele = document.getElementById('box');
+                var moveX = errX + ee.clientX;
+                var moveY = errY + ee.clientY;
+                d3_Ele.style.left = moveX + 'px';
+                d3_Ele.style.top = moveY + 'px';
+            }
+
+        };
+
+        document.onmouseup = function () {
+            isdrag = false;
+
+        }
+
+
+    </script>
+</body>
+
+</html>
