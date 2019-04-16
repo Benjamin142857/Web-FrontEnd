@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cn-ZH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin142857">
+    <meta name="keywords" content="None">
+    <meta name="description" content="Just a test">
+    <link rel="icon" href="http://www.benjamin-stella.cn/static/other/favicon.ico" type="image/x-icon"/>
+    <title>Title</title>
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <style>
+        #b1 {
+            height: 100px;
+            width: 300px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+
+<body>
+    <button id="b1">翘你妈</button>
+
+    <script>
+        var $b1Ele = $('#b1');
+        $b1Ele.click(function () {
+            $b1Ele.after($b1Ele.clone(true));
+        })
+    </script>
+</body>
+
+</html>
