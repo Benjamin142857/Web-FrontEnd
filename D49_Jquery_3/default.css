@@ -1,0 +1,77 @@
+#main-menu::-webkit-scrollbar {
+    display: none;
+    }
+#main-cart::-webkit-scrollbar {
+    display: none;
+    }
+
+body {
+    background: rgb(247, 247, 247);
+}
+
+#nav-box {
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+}
+.nav-logo {
+    line-height: 100px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+.nav-title {
+    line-height: 100px;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Calibri Light", "Kristen ITC";
+    left: 250px;
+    font-weight: bolder;
+}
+#main-box {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -750px;
+    margin-top: -330px;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+    height: 750px;
+    width: 1500px;
+}
+
+#main-menu {
+    height:700px;
+    width: 800px;
+    overflow: scroll;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+}
+#main-cart {
+    height:700px;
+    width: 625px;
+    overflow: scroll;
+    position: absolute;
+    top: 25px;
+    left: 850px;
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+}
+.main-menu-onebox {
+    height: 100px;
+    width: 100%;
+    background: palevioletred;
+}
