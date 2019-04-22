@@ -1,0 +1,530 @@
+html div::-webkit-scrollbar {
+    display: none;
+    }
+body {
+    background: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+
+/*Top Nav------------------------------------------------------------------------------------------*/
+#nav-box {
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+    z-index: 2;
+}
+.nav-logo {
+    line-height: 100px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+.nav-title {
+    line-height: 100px;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Calibri Light", "Kristen ITC";
+    left: 250px;
+    font-weight: bolder;
+}
+
+
+/*MainBox------------------------------------------------------------------------------------------*/
+#main-box {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -750px;
+    margin-top: -330px;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+    height: 750px;
+    width: 1500px;
+    z-index: 2;
+}
+.main-onebox-head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 36px;
+    font-family: '幼圆';
+    padding-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-onebox-body {
+    height: 580px;
+    width: 100%;
+    overflow: scroll;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    margin: 0;
+}
+.main-onebox-tail {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 36px;
+    font-family: '幼圆';
+    padding-left: 20px;
+    position: absolute;
+    top: 640px;
+    left: 0;
+    /*background: rgba(57, 57, 57, 0.6);*/
+    background: rgb(247, 247, 247);
+    border-top: rgba(50, 50, 50, 0.2) 1px solid;
+}
+
+/*MainMenu - 店铺菜单*/
+#main-menu-box {
+    height:700px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+}
+.main-menu-onebox {
+    height: 120px;
+    /*width: 100%;*/
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    font-family: '幼圆';
+}
+.main-menu-onebox-img {
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.main-menu-onebox-title {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    height: 40px;
+    width: 450px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 36px;
+
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.main-menu-onebox-detail {
+    position: absolute;
+    top: 55px;
+    left: 130px;
+    max-height: 40px;
+    width: 450px;
+    line-height: 20px;
+    font-size: 16px;
+    color: gray;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main-menu-onebox-price {
+    position: absolute;
+    top: 30px;
+    left: 595px;
+    height: 60px;
+    width: 120px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "Kristen ITC";
+
+    overflow: hidden;
+    /*white-space:nowrap;*/
+    /*text-overflow: ellipsis;*/
+}
+.main-menu-onebox-btn {
+    position: absolute;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 28px;
+    opacity: 1;
+    border-radius: 50%;
+    padding: 0;
+    outline: none;
+
+}
+.main-menu-onebox-btn:hover {
+    opacity: 0.8;
+}
+.main-menu-onebox-btn:active {
+    height: 49px;
+    width: 49px;
+    opacity: 0.9;
+}
+.main-menu-onebox-btn span {
+    position: absolute;
+    top: 12.5px;
+    left: 12px;
+
+}
+.main-menu-onebox-btn-add {
+    top: 35px;
+    left: 730px;
+    background: palevioletred;
+}
+.main-menu-onebox-btn-edit {
+    top: 5px;
+    left: 730px;
+    background: rgb(150, 255, 150);
+    display: none;
+}
+.main-menu-onebox-btn-del {
+    top: 65px;
+    left: 730px;
+    background: rgb(255, 150, 150);
+    display: none;
+}
+
+/*MainCart - 购物篮*/
+#main-cart-box {
+    height:700px;
+    width: 625px;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    left: 850px;
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+
+}
+.main-cart-onebox {
+    height: 80px;
+    width: 0;
+    border-bottom: rgba(50, 50, 50, 0.2) 1px solid;
+
+    overflow: hidden;
+    position: relative;
+    font-family: YouYuan;
+}
+.main-cart-onebox-img {
+    border: rgba(50, 50, 50, 0.2) 1px solid;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.main-cart-onebox-title {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    height: 60px;
+    width: 260px;
+
+    text-align: left;
+    line-height: 60px;
+    font-size: 36px;
+
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.main-cart-onebox-price {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    width: 100px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: "Kristen ITC";
+
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+
+}
+.main-cart-onebox-num {
+    height: 30px;
+    width: 55px;
+    position: absolute;
+    top: 25px;
+    left: 515px;
+
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    font-family: "Kristen ITC";
+
+    overflow: hidden;
+
+}
+.main-cart-onebox-btn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    border: none;
+    background: cornflowerblue;
+
+    font-size: 20px;
+    font-family: "Kristen ITC";
+    font-weight: bolder;
+}
+.main-cart-onebox-btn:hover {
+    opacity: 0.8;
+}
+.main-cart-onebox-btn:active {
+    height: 29px;
+    width: 29px;
+    opacity: 0.9;
+}
+.main-cart-onebox-btn-add {
+    left: 575px;
+    top: 25px;
+}
+.main-cart-onebox-btn-minus {
+    left: 480px;
+    top: 25px;
+}
+/*MainCartTail - 购物篮尾部补充*/
+.main-cart-tail-price {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 5px;
+    top: 5px;
+
+    color: orangered;
+    text-align: left;
+    line-height: 50px;
+    font-size: 36px;
+    font-family: "Kristen ITC";
+}
+.main-cart-tail-btn {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+
+    font-size: 24px;
+    font-family: YouYuan;
+}
+.main-cart-tail-btn-clear {
+    top: 10px;
+    left: 420px;
+}
+.main-cart-tail-btn-pay {
+    top: 10px;
+    left: 520px;
+}
+
+
+/*CoverBox------------------------------------------------------------------------------------------*/
+#cover-box {
+    height: 100%;
+    width: 100%;
+    background: rgba(50, 50, 50, 0.6);
+    z-index: 3;
+    position: absolute;
+    display: none;
+}
+.cover-alert-box1 {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background: white;
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -150px;
+}
+.cover-alert-box2 {
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    background: white;
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -250px;
+}
+.cover-btn-close {
+    outline: none;
+    border: none;
+    background: none;
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+    right: 8px;
+    top: 8px;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Calibri";
+}
+.cover-btn-close:hover {
+    opacity: 0.7;
+}
+.cover-btn-yes {
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    background: cornflowerblue;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+    font-size: 20px;
+    font-family: YouYuan;
+}
+.cover-btn-yes:hover {
+    opacity: 0.7;
+}
+.cover-btn-no {
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    background: palevioletred;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 200px;
+    right: 100px;
+
+    font-size: 20px;
+    font-family: YouYuan;
+}
+.cover-btn-no:hover {
+    opacity: 0.7;
+}
+.cover-content-1 {
+    width: 400px;
+    height: 100px;
+    margin: 0;
+
+    position: absolute;
+    left: 50px;
+    top: 70px;
+
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    font-family: YouYuan;
+}
+.cover-content-2 {
+    width: 700px;
+    height: 400px;
+    margin: 0;
+
+
+    position: absolute;
+    left: 50px;
+    top: 70px;
+
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    font-family: YouYuan;
+}
+.cover-content-2-detail {
+    width: 100%;
+    height: 80px;
+
+
+    position: absolute;
+    top: 0;
+
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    font-family: YouYuan;
+}
+.cover-content-2-img {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 100px;
+}
+
+.cover-content-2-bottom {
+    width: 250px;
+    height: 30px;
+    margin: 0;
+
+
+    position: absolute;
+    top: 360px;
+
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    font-family: YouYuan;
+}
+.cover-content-2-img img {
+    width: 220px;
+    height: 220px;
+    margin-top: 15px;
+}
+.cover-content-2-img-be {
+    background: cornflowerblue;
+    left: 60px;
+}
+.cover-content-2-img-st {
+    background: palevioletred;
+    right: 60px;
+}
+
+
+
+/*BottomImg-----------------------------------------------------------------------------------------*/
+.bottom-img {
+    height: 350px;
+    width: 350px;
+    opacity: 0.3;
+
+    position: absolute;
+    bottom: 0;
+}
+.bottom-img img {
+    width: 350px;
+    height: 350px;
+}
