@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="normalize.css">
     <script src="jquery-3.3.1.min.js"></script>
-
     <style>
         #main-box {
             width: 960px;
@@ -20,11 +19,13 @@
             left: 100px;
             top: 100px;
         }
+
         #main-box img {
             position: absolute;
             top: 0;
             left: 0;
         }
+
         .df-btn {
             font-size: 36px;
         }
@@ -34,40 +35,41 @@
 
 
 <body>
-    <div id="main-box">
-        <img id="img_end" src="img/3.jpg" width="960" height="540">
-        <img id="img_2" src="img/1.jpg" width="960" height="540">
-        <img id="img_1" src="img/2.jpg" width="960" height="540">
-        <img id="img_0" src="img/3.jpg" width="960" height="540">
-    </div>
+<div id="main-box">
+    <img id="img_end" src="img/3.jpg" width="960" height="540">
+    <img id="img_2" src="img/1.jpg" width="960" height="540">
+    <img id="img_1" src="img/2.jpg" width="960" height="540">
+    <img id="img_0" src="img/3.jpg" width="960" height="540">
+</div>
 
-    <button id="b1" class="df-btn">←</button>
-    <button id="b2" class="df-btn">→</button>
+<button id="b1" class="df-btn">←</button>
+<button id="b2" class="df-btn">→</button>
 
 
-    <script>
-        var img_list = [0, 1, 2];
-        var now_img_idx = 0;
-        function img_init() {
-            var img_id;
-            for(i in img_list) {
-                img_id = '#img_' + img_list[i];
-                $(img_id).css('width', '960px');
-            }
+<script>
+    var img_list = [0, 1, 2];
+    var now_img_idx = 0;
+
+    function img_init() {
+        var img_id;
+        for (i in img_list) {
+            img_id = '#img_' + img_list[i];
+            $(img_id).css('width', '960px');
         }
+    }
 
-        $('#b2').click(function () {
-            if(now_img_idx===0){
-                img_init();
-            }
-            var now_img_id = '#img_' + now_img_idx;
-            $(now_img_id).animate({
-                width: 0
-            }, 2000);
-            now_img_idx = (now_img_idx+1)%3;
+    $('#b2').click(function () {
+        if (now_img_idx === 0) {
+            img_init();
+        }
+        var now_img_id = '#img_' + now_img_idx;
+        $(now_img_id).animate({
+            width: 0
+        }, 2000);
+        now_img_idx = (now_img_idx + 1) % 3;
 
-        })
-    </script>
+    })
+</script>
 </body>
 
 </html>
