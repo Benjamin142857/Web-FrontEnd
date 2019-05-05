@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105a9158-aaa0-4f36-8920-9a50bb624024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D52_Bootstrap_Part/fa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D52_Bootstrap_Part/图标.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/fa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/best1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/best2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/img/best3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/2 轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/best1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/best2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D52_Bootstrap/img/best3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D52_Bootstrap_Part/fa.html" beforeDir="false" afterPath="$PROJECT_DIR$/D52_Bootstrap/1 模态框.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D52_Bootstrap_Part/图标.html" beforeDir="false" afterPath="$PROJECT_DIR$/D51_Bootstrap_Part/图标.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +52,7 @@
         <counts>
           <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
@@ -46,32 +61,34 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="13" />
-          <entry key="html" value="29" />
-          <entry key="jpg" value="7" />
+          <entry key="html" value="32" />
+          <entry key="jpg" value="14" />
           <entry key="js" value="10" />
           <entry key="png" value="2" />
           <entry key="py" value="5" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="29" />
-          <entry key="Image" value="9" />
+          <entry key="HTML" value="32" />
+          <entry key="Image" value="16" />
           <entry key="JavaScript" value="10" />
           <entry key="Python" value="5" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3181" />
-          <entry key="html" value="7194" />
+          <entry key="html" value="7638" />
           <entry key="js" value="2436" />
           <entry key="py" value="1106" />
         </counts>
@@ -79,7 +96,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3181" />
-          <entry key="HTML" value="7194" />
+          <entry key="HTML" value="7638" />
           <entry key="JavaScript" value="2436" />
           <entry key="Python" value="1106" />
         </counts>
@@ -88,23 +105,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D52_Bootstrap_Part/图标.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/D52_Bootstrap/2 轮播图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+            <state relative-caret-position="306">
+              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D52_Bootstrap_Part/fa.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -133,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/D44-JS_base/01 操作DOM.html" />
-        <option value="$PROJECT_DIR$/D44-JS_base/static/01.js" />
         <option value="$PROJECT_DIR$/D44-JS_base/static/00.css" />
         <option value="$PROJECT_DIR$/D44-JS_base/static/00.js" />
         <option value="$PROJECT_DIR$/D44-JS_base/00 request test.html" />
@@ -184,6 +190,8 @@
         <option value="$PROJECT_DIR$/D51_Bootstrap_Grid/1.html" />
         <option value="$PROJECT_DIR$/D52_Bootstrap_Part/图标.html" />
         <option value="$PROJECT_DIR$/D52_Bootstrap_Part/fa.html" />
+        <option value="$PROJECT_DIR$/D52_Bootstrap/1 模态框.html" />
+        <option value="$PROJECT_DIR$/D52_Bootstrap/2 轮播图.html" />
       </list>
     </option>
   </component>
@@ -210,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,16 +226,10 @@
               <item name="Web-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Web-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="D52_Bootstrap_Part" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,11 +254,11 @@
       <recent name="E:\#Programming\Web\S14\D42-CSS_base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\#Programming\Web\Web-FrontEnd\D52_Bootstrap" />
+      <recent name="E:\#Programming\Web\Web-FrontEnd\D52_Bootstrap_Part" />
+      <recent name="E:\#Programming\Web\Web-FrontEnd\D52_Bootstrap_Part\img" />
       <recent name="E:\#Programming\Web\Web-FrontEnd\D51_Bootstrap_Grid\img" />
       <recent name="E:\#Programming\Web\Web-FrontEnd\D51_Bootstrap_Grid" />
-      <recent name="E:\#Programming\Web\Web-FrontEnd\D49_Jquery_3\best-candy-shop" />
-      <recent name="E:\#Programming\Web\Web-FrontEnd\D50_Jquery_4" />
-      <recent name="E:\#Programming\Web\Web-FrontEnd\D49_Jquery_3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,10 +415,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17436975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,44 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D45-JS-Obj/RegExp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D45-JS-Obj/类与对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/面试题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/计时器练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D47_Jquery_1/practice_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D47_Jquery_1/作业-Jquery下拉菜单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -690,9 +654,6 @@
     <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Grid/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/D50_Jquery_4/img/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/D50_Jquery_4/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -735,17 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,26 +703,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <marker date="1556686727729" expanded="true" signature="508:526" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D52_Bootstrap_Part/图标.html">
+    <entry file="file://$PROJECT_DIR$/D50_Jquery_4/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D50_Jquery_4/img/best1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Part/iconfont/iconfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Part/图标.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+        <state relative-caret-position="126">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D52_Bootstrap_Part/fa.html">
+    <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Part/fa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="218">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#6;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D52_Bootstrap/1 模态框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1364#1371#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Part/img/best1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D51_Bootstrap_Part/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D52_Bootstrap/2 轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
